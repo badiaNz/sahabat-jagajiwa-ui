@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style global lainnya bisa ditambahkan di bawah sini */
+
+body {
+  /* Memberi warna latar belakang default yang sedikit abu-abu */
+  background-color: #3a6087;
+}
+
+/* Mengubah warna latar belakang saat teks diseleksi (highlight) */
+::selection {
+  background-color: #9333ea; /* Warna ungu dari Tailwind */
+  color: #ffffff;
+}
